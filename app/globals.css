@@ -116,7 +116,8 @@
   }
 
   main {
-    @apply mx-auto container flex flex-col sm:px-2 px-2 py-10;
+    /* @apply mx-auto container flex flex-col sm:px-2 px-2 py-10; */
+    @apply mx-auto container flex flex-col lg:px-[45px] md:px-5 px-8 py-10;
 
   }
 
@@ -129,7 +130,7 @@
   }
 
   ul {
-    @apply list-disc list-inside;
+    @apply list-none list-inside;
   }
 }
  
@@ -153,7 +154,8 @@
     @apply glass sticky top-0 z-50;
 
     nav {
-      @apply flex flex-row justify-between mx-auto container sm:px-2 px-2 py-10;
+      /* @apply flex flex-row justify-between mx-auto container sm:px-2 px-2 py-10; */
+      @apply flex flex-row justify-between mx-auto container lg:px-[45px] md:px-5 px-8 py-4;
     }
 
     .logo {
